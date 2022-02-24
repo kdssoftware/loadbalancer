@@ -9,140 +9,140 @@ services:
             - ./haproxy:/usr/local/etc/haproxy
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     yocto:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9001
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     zepto:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9002
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     atto:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9003
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     femto:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9004
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     pico:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9005
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     nano:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9006
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     micro:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9007
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     milli:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9008
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     centi:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9009
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     deci:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9010
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     deca:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9011
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     hecto:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9012
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     kilo:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9013
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     mega:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9014
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     giga:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9015
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     tera:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9016
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     peta:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9017
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     exa:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9018
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     zetta:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9019
             - HOST=https://images.picturehouse.be
         volumes:
             - /home/karel/docker-volumes/picturehouse/images:/app/images
     yotta:
-        image: ghcr.io/snakehead007/picturehouse-images:latest
+        image: ghcr.io/kdssoftware/picturehouse-images:latest
         environment:
             - PORT=9020
             - HOST=https://images.picturehouse.be
